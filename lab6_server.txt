@@ -1,0 +1,24 @@
+Script started on Sat 04 Apr 2020 01:07:53 AM EDT
+]0;briannadrew@loki:~/lab6[?1034h[briannadrew@loki lab6]$ ./server
+[3;J[H[2J
+file descriptor 3 received
+
+Successfully binded!
+
+Waiting for file name...
+
+File Name Received: /home/COIS/3380/lab4_sourcefile
+
+File Successfully opened!
+
+Waiting for file name...
+
+Signal received to terminate Server
+Terminating.......
+]0;briannadrew@loki:~/lab6[briannadrew@loki lab6]$ md5sum /home/COIS/3380/lab4_sourcefile ./lab_sourcefile_local_clone
+9fd8213663918961f962f192c7b4d1f0  /home/COIS/3380/lab4_sourcefile
+9fd8213663918961f962f192c7b4d1f0  ./lab_sourcefile_local_clone
+]0;briannadrew@loki:~/lab6[briannadrew@loki lab6]$ exit
+exit
+
+Script done on Sat 04 Apr 2020 01:09:48 AM EDT
